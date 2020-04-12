@@ -5,8 +5,8 @@ $(document).ready(function () {
 	// 异步加载一言
 	(function getHitokoto() {
 	    $.ajax({
-	        //url: "https://api.imjad.cn/hitokoto/?encode=jsc&charset=utf-8&length=50",
-	        url: "https://v1.hitokoto.cn/?encode=json&charset=utf-8",
+	        url: "https://api.imjad.cn/hitokoto/?encode=jsc&charset=utf-8&length=50",
+	        //url: "https://v1.hitokoto.cn/?encode=json&charset=utf-8",
 	        dataType: "jsonp",
 	        async: true,
 	        jsonp: "callback",
